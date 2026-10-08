@@ -133,14 +133,14 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 APPS = [
 
     {
-            "title": "Anro master search(Manisha)",
+            "title": "ANRO Master search (Manisha)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://anro-master-extractor.streamlit.app/",
         },
     {
-            "title": "COO invoice to excel",
+            "title": "EXIM - COO Invoice to excel",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
@@ -154,60 +154,54 @@ APPS = [
             "url": "https://hsamuel-dashboard.streamlit.app/",
         },
     {
-            "title": "MHJ LINE SHEET(Vinayak)",
+            "title": "MHJ LINE SHEET (Vinayak)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://mhj-cost-sheet.streamlit.app/",
         },
     {
-            "title": "Po and style number search(Mandaar)",
+            "title": "PO & Style earch from EMR Dump (Mandaar)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://stylenumber-and-ponumber-extract.streamlit.app/",
         },
     {
-                "title": "Image extractor(Manisha)",
+                "title": "Image extractor (Manisha)",
                 "category": "Sales",
                 "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
                 "icon": "📦",
                 "url": "https://image-extractor-order-confirmation.streamlit.app/",
             },
     {
-            "title": "DCB to order details(Manisha)",
+            "title": "DCB to order details (Manisha)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://dcb-to-order-details.streamlit.app/",
         },
     {
-            "title": "Daily order updater(Vinayak)",
+            "title": "Daily order updater (Vinayak)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://daily-order-updater.streamlit.app/",
         },
     {
-            "title": "Psegoma data split(Rajesh )",
+            "title": "Psegoma data split (Rajesh)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://data-split.streamlit.app/",
     },
     {
-            "title": "Style and sketch breakup formatting(Sushil )",
+            "title": "Costing - Existing & from TWT (Sushil)",
             "category": "Sales",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://style-breakup-formatting.streamlit.app/",
-        },{
-            "title": "MHJ LINE SHEET(Vinayak)",
-            "category": "Sales",
-            "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
-            "icon": "📦",
-            "url": "https://mhj-cost-sheet.streamlit.app/",
-        },
+        }
 ]
 
 # ---------------------------------------------------------
@@ -257,7 +251,7 @@ else:
                     <span class="card-badge">{app['category']}</span>
                 </div>
                 <div class="card-title">{app['title']}</div>
-                <div class="card-desc">{app['desc']}</div>
+                <div class="card-desc"></div>
             </div>
             <a href="{app['url']}" target="_blank" rel="noopener noreferrer" class="card-btn">
                 Launch Application ↗
