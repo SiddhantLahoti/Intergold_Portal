@@ -141,7 +141,7 @@ APPS = [
         },
     {
             "title": "EXIM - COO Invoice to excel",
-            "category": "Sales",
+            "category": "EXIM",
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://coo-invoice-to-excel.streamlit.app/",
