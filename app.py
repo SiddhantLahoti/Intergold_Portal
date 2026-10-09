@@ -201,7 +201,13 @@ APPS = [
             "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
             "icon": "📦",
             "url": "https://style-breakup-formatting.streamlit.app/",
-        }
+        },{
+                    "title": "MHJ Order Verification (Vinayak)",
+                    "category": "Sales",
+                    "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
+                    "icon": "📦",
+                    "url": "https://mhj-order-verification.streamlit.app/",
+                }
 ]
 
 # ---------------------------------------------------------
