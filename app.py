@@ -207,6 +207,12 @@ APPS = [
                     "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
                     "icon": "📦",
                     "url": "https://mhj-order-verification.streamlit.app/",
+                },{
+                    "title": "MHJ Invoice Packing List (Ajinkya)",
+                    "category": "Sales",
+                    "desc": "Real-time warehouse stock tracking, threshold notifications, and vendor purchase requests.",
+                    "icon": "📦",
+                    "url": "https://mhj-invoice-packing-list.streamlit.app/",
                 }
 ]
 
